@@ -1,0 +1,322 @@
+
+body, a {
+    background: #000;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #fff; 
+}
+
+.titre {
+    font-size: 40px;
+}
+
+hr {
+    height: 2px;
+    background-color: #f72585;
+    border: none;
+}
+#line1 {
+    margin-left: 900px;
+}
+
+#line2 {
+    margin-right: 900px;
+}
+
+
+
+.image_tout_ecran {
+    width: 100%;
+}
+
+
+#name, #menu {
+    background-color: #2d2d2d;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+}
+
+#name {
+    font-weight: bold;  
+}
+
+#M1, #M2, #M3, #M4 {
+    margin: 1%;
+}
+#menu {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+
+#titre1 {
+    margin: 5% 3% 0 40%;
+}
+
+#titre1, #line1 {
+    display: flex;
+}
+
+#titre2 {
+    margin: 4% 10% 4% 38%;
+}
+
+#ma_photo {
+    position: absolute;
+    right: 1%; 
+}
+
+#text_a_propos {
+    font-size: 12px;
+    margin: 1%;
+    padding: 0%; 
+}
+
+.liste1, .liste2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35% 2% 5%;
+}
+
+#comex, #PA {
+    margin: -2% ;
+} 
+
+
+
+#parag1 {
+    margin-right: 35%;
+    margin-bottom: 10%;
+}
+
+#line3 {
+    margin-right: 1200px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+#line4 {
+    margin-right: 690px;
+}
+
+
+#end_slide {
+    margin: -7% 10% 5% 10%;
+}
+
+.slider {
+    width: 100%;  /* Taille du slider */
+    height: 300px;  /* Hauteur du slider */
+    overflow: hidden;  /* Cache tout ce qui déborde du conteneur */
+    position: relative;
+  }
+  
+  /* Gérer les images dans le slider */
+  .slides {
+    display: flex;  /* Met les images sur la même ligne */
+    width: 600%;  /* Le total de la largeur des images, ici 4 images */
+    animation: slide 16s infinite;  /* Animation de défilement des images */
+  }
+  
+  .slides img {
+    object-fit: cover;  /* Assure que les images remplissent le conteneur sans déformation */
+  }
+
+  .slide {
+    margin: 2px;
+  }
+
+  .slider-prev, .slider-next {
+    position: absolute;
+    top: 50%;
+    /*right: 10px;   Le bouton est maintenant à droite */
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    transform: translateY(-50%);
+}
+
+/* Bouton à gauche */
+.slider-prev {
+    left: 10px;
+}
+
+/* Bouton à droite */
+.slider-next {
+    right: 10px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#line5, #line6 {
+    margin-right: 500px;
+} 
+
+.container {
+    display: flex;  /* Utilisation du flexbox pour aligner les blocs côte à côte */
+    justify-content: space-between;  /* Espacement entre les blocs */
+    margin: 2px;  /* Marge autour des blocs */
+}
+
+.block {
+    width: 48%;  /* Chaque bloc occupe environ la moitié de l'écran */
+    margin: 10px;  /* Marge interne autour de chaque bloc */
+}
+
+.titres_bloc {
+    text-align: left;
+}
+
+#vision {
+    text-align: right;  /* Aligner à droite */
+}
+
+#ambitions {
+    text-align: left;  /* Aligner à gauche */
+}
+
+.textes_bloc {
+    text-align: justify;
+}
+
+#end_slide3 {
+    margin: 5% 10% 0% 10%;
+}
+
+#titre3 {
+    margin: 5% 10% 4% 38%;
+}
+
+#titre4 {
+    margin: 5% 10% 4% 42%;
+}
+
+.container2 {
+    display: flex;  /* Utilisation de Flexbox */
+    justify-content: space-between;  /* Espacement égal entre les blocs */
+    margin: 20px;  /* Marge autour du conteneur */
+    background-color: #2d2d2d;  
+}
+
+.compt {
+    width: 23%;  /* Chaque bloc prend environ 1/4 de la largeur, avec un petit espace */
+    padding: 20px;
+    text-align: center;
+}
+
+#compt1, #compt3 {
+    margin-top: 20px;  /* Décalage vers le bas */
+}
+
+.liste_c {
+    text-align: center;
+}
+
+.titre_rose {
+    color: #f72585;
+}
+
+
+#projet1, #projet2, #projet3, #projet4, #projet5, #projet6 {
+    margin: 100px;
+    display: flex;          /* Utilise Flexbox pour disposer les éléments */
+    align-items: center; 
+    background-color: #2d2d2d;
+    padding:2%
+
+}
+
+
+.texte_projet1, .texte_projet2, .texte_projet3, .texte_projet4, .texte_projet5, .texte_projet6 {
+    margin: 0px;              /* Enlève les marges par défaut */
+    padding-left: 20px;     /* Ajoute un peu d'espace entre l'image et le texte */
+}
+
+.petit_titre {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+#titre5 {
+    margin: 5% 10% 4% 45%;
+}
+
+#text_clients {
+    text-align: center;
+    margin: 0 20% 5%;
+}
+
+#line7 {
+    margin: 0 10% 5%;
+}
+
+#logos {
+    display: block;
+    margin: auto;
+}
+
+#slide7 {
+    display: flex; /* Pour aligner les deux sections sur une seule ligne */
+    width: 100%; /* Prend toute la largeur de l'écran */
+    align-items: center; /* Centrer verticalement les contenus */
+    gap: 20px; /* Optionnel : espace entre les sections */
+    margin: 10px auto; /* Centrer tout le conteneur si besoin */
+    padding: 20px;
+}
+
+.image-section {
+    flex: 1; /* Prend la moitié gauche */
+    display: flex;
+    justify-content: center; /* Centre l'image horizontalement dans sa section */
+    align-items: center; /* Centre l'image verticalement dans sa section */
+}
+
+.image-section img {
+    margin-top: 100px;
+    max-width: 100%; /* Ne dépasse pas la largeur de la section */
+    height: auto; /* Garde les proportions de l'image */
+}
+
+.text-section {
+    flex: 1; /* Prend la moitié droite */
+    padding: 20px; /* Optionnel : ajoute un espace intérieur pour le texte */
+    text-align: left; /* Alignement du texte à gauche */
+}
+
+.text-section hr {
+    margin: 10px 0; /* Espace au-dessus et en dessous de la ligne */
+}
+
+.text-section p {
+    margin: 10px 0; /* Espace entre les paragraphes */
+}
+
+.text-section a {
+    color: #0073e6; /* Couleur pour le lien */
+    text-decoration: none; /* Supprime le soulignement du lien */
+}
+
+.text-section a:hover {
+    text-decoration: underline; /* Affiche le soulignement au survol */
+}
+
+#texte_vid1, #texte_vid2, #texte_vid3, #la_video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#la_video {
+    padding-bottom: 30px;
+}
